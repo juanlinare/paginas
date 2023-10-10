@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contador de Palabras</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input[type="text"] {
+            width: 300px;
+            padding: 5px;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 5px 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        #resultado {
+            margin-top: 20px;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Contador de Palabras</h1>
+    <label for="frase">Ingrese una frase:</label>
+    <input type="text" id="frase"><br>
+    <button onclick="contarPalabras()">Contar palabras</button>
+    <p id="resultado"></p>
+    <script src="contador_de_palabras.js"></script>
+</body>
+</html>

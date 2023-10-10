@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Anagramas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input[type="text"] {
+            width: 300px;
+            padding: 5px;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 5px 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        #resultado {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+    
+</head>
+<body>
+    <p>Anagrama</p>
+    <label for="tex1">Ingrese la primera cadena:</label>
+    <input type="text" id="tex1"><br>
+    <label for="tex2">Ingrese la segunda cadena:</label>
+    <input type="text" id="tex2"><br>
+    <button onclick="esAnagrama()">Verificar anagrama</button>
+    <p id="resultado"></p>
+    <script src="anagramas.js"></script>
+</body>
+</html>
